@@ -123,6 +123,10 @@ table {
   margin-bottom: -13px;
 }
 
+.product-item .inner-image a {
+  display: block;
+}
+
 .product-item .inner-image img {
   width: 100%;
   height: 100%;
