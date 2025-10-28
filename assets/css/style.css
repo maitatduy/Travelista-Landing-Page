@@ -106,7 +106,7 @@ table {
 @media (max-width: 575.98px) {
   .container {
     width: 100%;
-    padding: 16px 0;
+    padding: 0 16px;
   }
 }
 
