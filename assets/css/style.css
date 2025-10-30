@@ -977,3 +977,23 @@ table {
   }
 }
 /* End Domestic Tour */
+
+/* Tour Banner */
+.tour-banner {
+  padding-bottom: 60px;
+}
+
+.tour-banner .inner-image {
+  border-radius: 10px;
+}
+
+.tour-banner .inner-image img {
+  width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  .tour-banner {
+    padding-bottom: 45px;
+  }
+}
+/* End Tour Banner */
