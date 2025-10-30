@@ -1260,3 +1260,232 @@ table {
 }
 
 /* End Blog Section */
+
+/* Footer */
+.footer {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer .inner-top {
+  border-radius: 16px;
+  padding: 32px;
+  background: var(--color-primary);
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.footer .inner-top .inner-title {
+  width: 33%;
+  color: #fdfdfd;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-right: 24px;
+}
+
+.footer .inner-top .inner-form {
+  flex: 1;
+  padding: 12px;
+  border-radius: 14px;
+  background: #fff;
+  display: flex;
+  gap: 12px;
+}
+
+.footer .inner-top .inner-form input {
+  padding: 14px 28px;
+  border-radius: 8px;
+  border: 1px solid #99a2a5;
+  background: #fff;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.footer .inner-top .inner-form button {
+  border-radius: 8px;
+  background: var(--color-primary);
+  color: #fdfdfd;
+  font-size: 16px;
+  padding: 12px 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.footer .inner-middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ccd1d2;
+}
+
+.footer .inner-middle .inner-links ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer .inner-middle .inner-links ul li a {
+  color: #25282b;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: all 0.3s ease;
+}
+
+.footer .inner-middle .inner-links ul li a:hover {
+  color: var(--color-primary);
+}
+
+.footer .inner-middle .inner-social ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer .inner-middle .inner-social ul li a {
+  color: #25282b;
+  font-size: 24px;
+  transition: all 0.3s ease;
+}
+
+.footer .inner-middle .inner-social ul li a:hover {
+  color: var(--color-primary);
+}
+
+.footer .inner-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .inner-bottom .inner-copyright {
+  color: #667479;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer .inner-bottom .inner-privacy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer .inner-bottom .inner-privacy span {
+  color: #667479;
+  text-align: right;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer .inner-bottom .inner-logo {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.footer .inner-bottom .inner-logo p {
+  color: var(--color-primary);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+@media (max-width: 991.98px) {
+  .footer {
+    padding-top: 40px;
+  }
+
+  .footer .inner-top {
+    flex-wrap: wrap;
+  }
+
+  .footer .inner-top .inner-title {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer .inner-top .inner-form {
+    padding: 12px;
+  }
+
+  .footer .inner-middle {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+
+  .footer .inner-middle .inner-links ul {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 25px;
+  }
+
+  .footer .inner-middle .inner-social {
+    gap: 25px;
+  }
+
+  .footer .inner-bottom {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .footer .inner-bottom .inner-logo {
+    order: 1;
+  }
+
+  .footer .inner-bottom .inner-privacy {
+    order: 2;
+  }
+
+  .footer .inner-bottom .inner-copyright {
+    order: 3;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .footer .inner-top {
+    padding: 20px;
+  }
+
+  .footer .inner-top .inner-title {
+    font-size: 18px;
+  }
+  .footer .inner-top .inner-form {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .footer .inner-top .inner-form input {
+    width: 100%;
+    flex: none;
+  }
+
+  .footer .inner-top .inner-form button {
+    width: 100%;
+  }
+}
+/* End Footer */
