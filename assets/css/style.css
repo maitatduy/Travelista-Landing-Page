@@ -2687,3 +2687,149 @@ table {
   }
 }
 /* End Cart Section */
+
+/* User Info Section */
+.user-info {
+  padding-bottom: 60px;
+}
+
+.user-info .inner-wrap {
+  max-width: 902px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0px 3.05px 3.81px 0px #00000026;
+  border-radius: 18px;
+  padding: 30px 20px;
+}
+
+.user-info .inner-title-main {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--color-primary);
+  margin-bottom: 25px;
+}
+
+.user-info .inner-info {
+  margin-bottom: 30px;
+}
+
+.user-info .inner-info .inner-inputs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px 20px;
+  margin-bottom: 15px;
+}
+
+.user-info .inner-info input,
+.user-info .inner-info textarea {
+  width: 100%;
+  outline: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 14px 20px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.user-info .inner-info input::placeholder,
+.user-info .inner-info textarea::placeholder {
+  color: #828282;
+}
+
+.user-info .inner-info input {
+  height: 50px;
+}
+
+.user-info .inner-info textarea {
+  height: 100px;
+}
+
+.user-info .inner-method .inner-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-info .inner-method .inner-list .inner-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-info .inner-method .inner-list .inner-item input {
+  margin: 0;
+  width: 21px;
+  height: 21px;
+  cursor: pointer;
+  accent-color: var(--color-primary);
+}
+
+.user-info .inner-method .inner-list .inner-item label {
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+}
+
+.user-info .inner-method .inner-info-bank {
+  background-color: #f3f3f3;
+  border-radius: 4.25px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.user-info .inner-method .inner-info-bank .inner-title {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+
+.user-info .inner-method .inner-info-bank .inner-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #4f4f4f;
+  margin-bottom: 5px;
+}
+
+.user-info .inner-button {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.user-info .inner-button button {
+  width: 50%;
+  height: 46px;
+  background-color: var(--color-primary);
+  border-radius: 8px;
+  border: 0;
+  padding: 0;
+  outline: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media (max-width: 575.98px) {
+  .user-info {
+    padding-bottom: 45px;
+  }
+
+  .user-info .inner-wrap {
+    padding: 20px 15px;
+  }
+
+  .user-info .inner-title-main {
+    font-size: 16px;
+  }
+
+  .user-info .inner-info .inner-inputs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .user-info .inner-button button {
+    width: 100%;
+  }
+}
+/* End User Info Section */
